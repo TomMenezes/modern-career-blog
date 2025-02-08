@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -24,19 +25,25 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Portfolio</h3>
+            <Link 
+              to="/portfolio" 
+              className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
+            >
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Portfolio</h3>
               <p className="text-gray-600">
                 Conheça os projetos que desenvolvi e as tecnologias utilizadas.
               </p>
-            </div>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Blog</h3>
+            <Link 
+              to="/blog" 
+              className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
+            >
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Blog</h3>
               <p className="text-gray-600">
                 Artigos sobre desenvolvimento, carreira e tecnologia.
               </p>
-            </div>
+            </Link>
           </section>
         </div>
       </main>
