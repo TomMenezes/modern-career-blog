@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

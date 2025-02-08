@@ -18,12 +18,15 @@ const Index = () => {
           </section>
 
           <section className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Experiência Profissional</h3>
+            <Link 
+              to="/experience" 
+              className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
+            >
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Experiência Profissional</h3>
               <p className="text-gray-600">
                 Explore minha jornada profissional e os projetos em que trabalhei.
               </p>
-            </div>
+            </Link>
 
             <Link 
               to="/portfolio" 
