@@ -1,0 +1,29 @@
+
+{
+  "nav": {
+    "home": "Início",
+    "portfolio": "Portfólio",
+    "blog": "Blog"
+  },
+  "home": {
+    "welcome": "Bem-vindo ao Meu Blog Profissional",
+    "subtitle": "Compartilhando experiências e conhecimentos em desenvolvimento de software",
+    "experience": {
+      "title": "Experiência Profissional",
+      "description": "Explore minha jornada profissional e os projetos em que trabalhei."
+    },
+    "portfolio": {
+      "title": "Portfólio",
+      "description": "Conheça os projetos que desenvolvi e as tecnologias utilizadas."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Artigos sobre desenvolvimento, carreira e tecnologia."
+    }
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Desenvolvimento de aplicações web utilizando React, Node.js e TypeScript. Implementação de novas funcionalidades, manutenção de código existente e otimização de performance."
+  }
+}

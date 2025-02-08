@@ -1,8 +1,11 @@
 
 import Navbar from "@/components/Navbar";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
@@ -10,10 +13,10 @@ const Index = () => {
         <div className="fade-in space-y-8">
           <section className="text-center space-y-4">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
-              Bem-vindo ao Meu Blog Profissional
+              {t('home.welcome')}
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Compartilhando experiências e conhecimentos em desenvolvimento de software
+              {t('home.subtitle')}
             </p>
           </section>
 
@@ -22,9 +25,11 @@ const Index = () => {
               to="/experience" 
               className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
             >
-              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Experiência Profissional</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">
+                {t('home.experience.title')}
+              </h3>
               <p className="text-gray-600">
-                Explore minha jornada profissional e os projetos em que trabalhei.
+                {t('home.experience.description')}
               </p>
             </Link>
 
@@ -32,9 +37,11 @@ const Index = () => {
               to="/portfolio" 
               className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
             >
-              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Portfolio</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">
+                {t('home.portfolio.title')}
+              </h3>
               <p className="text-gray-600">
-                Conheça os projetos que desenvolvi e as tecnologias utilizadas.
+                {t('home.portfolio.description')}
               </p>
             </Link>
 
@@ -42,9 +49,11 @@ const Index = () => {
               to="/blog" 
               className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow group"
             >
-              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">Blog</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary">
+                {t('home.blog.title')}
+              </h3>
               <p className="text-gray-600">
-                Artigos sobre desenvolvimento, carreira e tecnologia.
+                {t('home.blog.description')}
               </p>
             </Link>
           </section>
