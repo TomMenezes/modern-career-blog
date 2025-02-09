@@ -33,13 +33,18 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
-              Wellington Vieira Menezes
-            </h1>
+            <Link to="/">
+              <h1 className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
+                Wellington Vieira Menezes
+              </h1>
+            </Link>
           </div>
           <div className="hidden sm:flex sm:space-x-8">
             <Link to="/" className="nav-link">
               {t('nav.home')}
+            </Link>
+            <Link to="/experience" className="nav-link">
+              {t('nav.experience')}
             </Link>
             <Link to="/portfolio" className="nav-link">
               {t('nav.portfolio')}
@@ -70,6 +75,9 @@ const Navbar = () => {
           <div className="sm:hidden mt-2 space-y-2">
             <Link to="/" className="block nav-link">
               {t('nav.home')}
+            </Link>
+            <Link to="/experience" className="block nav-link">
+              {t('nav.experience')}
             </Link>
             <Link to="/portfolio" className="block nav-link">
               {t('nav.portfolio')}

@@ -1,12 +1,14 @@
 {
   "nav": {
     "home": "Home",
+    "experience": "Professional Experience",
     "portfolio": "Portfolio",
     "blog": "Blog"
   },
   "home": {
     "welcome": "Welcome to My Professional Blog",
     "subtitle": "Sharing experiences and knowledge in software development",
+    "contacts"  : "Contacts",
     "experience": {
       "title": "Professional Experience",
       "description": "Explore my professional journey and the projects I worked on."

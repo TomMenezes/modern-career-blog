@@ -1,7 +1,7 @@
-
 import Navbar from "@/components/Navbar";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Index = () => {
   const { t } = useTranslation();
@@ -59,6 +59,26 @@ const Index = () => {
           </section>
         </div>
       </main>
+      <footer className="pt-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">{t('home.contacts')}</h2>
+        <ul className="space-y-4">
+          <li className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <a href="mailto:wvm.menezes@gmail.com" className="text-xl text-gray-900 hover:text-primary transition-colors flex items-center">
+              <FaEnvelope className="mr-2" /> Email: wvm.menezes@gmail.com
+            </a>
+          </li>
+          <li className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <a href="https://www.linkedin.com/in/wellington-menezes-8a12b216/" target="_blank" rel="noopener noreferrer" className="text-xl text-gray-900 hover:text-primary transition-colors flex items-center">
+              <FaLinkedin className="mr-2" /> LinkedIn: https://www.linkedin.com/in/wellington-menezes-8a12b216/
+            </a>
+          </li>
+          <li className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <a href="https://github.com/TomMenezes" target="_blank" rel="noopener noreferrer" className="text-xl text-gray-900 hover:text-primary transition-colors flex items-center">
+              <FaGithub className="mr-2" /> GitHub: https://github.com/TomMenezes
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 };

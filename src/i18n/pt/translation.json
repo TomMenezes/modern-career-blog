@@ -2,12 +2,14 @@
 {
   "nav": {
     "home": "Início",
+    "experience": "Experiência Profissional",
     "portfolio": "Portfólio",
     "blog": "Blog"
   },
   "home": {
     "welcome": "Bem-vindo ao Meu Blog Profissional",
     "subtitle": "Compartilhando experiências e conhecimentos em desenvolvimento de software",
+    "contacts"  : "Contatos",
     "experience": {
       "title": "Experiência Profissional",
       "description": "Explore minha jornada profissional e os projetos em que trabalhei."
