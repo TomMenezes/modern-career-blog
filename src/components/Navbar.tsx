@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <h1 className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
-              Seu Nome
+              Wellington Vieira Menezes
             </h1>
           </div>
           <div className="hidden sm:flex sm:space-x-8">

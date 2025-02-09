@@ -1,4 +1,3 @@
-
 {
   "nav": {
     "home": "Home",
@@ -22,8 +21,49 @@
     }
   },
   "experience": {
-    "title": "Professional Experience",
-    "role": "Full Stack Developer",
-    "description": "Development of web applications using React, Node.js and TypeScript. Implementation of new features, maintenance of existing code and performance optimization."
+    "senior3": {
+      "company": "Turing",
+      "role": "Software Engineer",
+      "description": "Dedicated software developer specializing in Golang-based systems, catering to one of the world's leading cryptocurrency companies. This role has provided extensive exposure to fintech and distributed systems on an unprecedented scale, where applications handle over 1 billion requests daily",
+      "begin": "Nov 2023",
+      "end": "Present"
+    },
+    "senior2": {
+      "company": "BairesDev",
+      "role": "Software Engineer",
+      "description": "Specializing in the development of systems centered around microservices architecture, utilizing SQL Server database and Golang programming language. My client primarily operates within the healthcare sector, providing invaluable experience in navigating GDPR compliance on a global scale, adhering to diverse laws and regulations across various countries",
+      "begin": "May 2021",
+      "end": "Nov 2023"
+    },
+    "specialist": {
+      "company": "Webmotors",
+      "role": "Senior Software Developer",
+      "description": "Collaborating with the architecture team to establish and enforce development standards for IT teams, oversee the production environment, and brainstorm innovative solutions to enhance application performance and reduce operating costs. Proficient in developing systems using C# technologies (Web API, Web MVC, Console, Service) and Node.js (React, Express WebAPI), as well as adept at crafting cloud environments on AWS (utilizing CloudFormation, AWS CLI, and Console)",
+      "begin": "Jan 2010",
+      "end": "May 2021"
+    },
+    "senior1": {
+      "company": "Stefanini IT",
+      "role": "Senior Software Developer",
+      "description": "As a Service Provider, specializing in the creation, architecture, and design of systems in .NET utilizing the ASP.NET platform, including C# WebSites, Windows Services, Batch Processes, Application Servers, and Web Services for consultancy clients. Committed to delivering excellence in every project.",
+      "begin": "Sep 2006",
+      "end": "Jan 2010"
+    },
+    "junior": {
+      "company": "Architettura Soluções em Tecnologia S/C Ltda",
+      "role": "Junior Systems Analyst",
+      "description": "Acting as a Service Provider for creating, architecture and design of .Net systems with WindowsForms platform, ASPNet, DB access components, experience using Ajax with WebServices. ",
+      "begin": "Dec 2005",
+      "end": "Sep 2006"
+    },
+    "intern": {
+      "company": "Mercado Eletrônico S/A",
+      "role": "Intern",
+      "description": "Contributed to the development and maintenance of Mercado Eletrônico's web platform as a Development Intern.  Responsibilities included building and integrating web pages using ASP, VB, and Delphi, as well as working with SQL databases and COM+ components developed in Delphi and VB.",
+      "begin": "May 2024",
+      "end": "Dec 2025",
+      "components": ["ASP","VB","Delphi","Com+","SQL Server"]
+    },
+    "title": "Professional Experience"
   }
 }

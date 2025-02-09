@@ -3,22 +3,23 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 
 const Blog = () => {
-  const posts = [
-    {
-      id: 1,
-      title: "Minha Jornada como Desenvolvedor",
-      date: "12 de Março, 2024",
-      preview: "Como iniciei minha carreira em desenvolvimento de software e as lições aprendidas ao longo do caminho.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    },
-    {
-      id: 2,
-      title: "Tecnologias que Mudaram Minha Carreira",
-      date: "10 de Março, 2024",
-      preview: "As principais tecnologias e ferramentas que impactaram positivamente minha trajetória profissional.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-    }
-  ];
+  // const posts = [
+  //   {
+  //     id: 1,
+  //     title: "Minha Jornada como Desenvolvedor",
+  //     date: "12 de Março, 2024",
+  //     preview: "Como iniciei minha carreira em desenvolvimento de software e as lições aprendidas ao longo do caminho.",
+  //     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Tecnologias que Mudaram Minha Carreira",
+  //     date: "10 de Março, 2024",
+  //     preview: "As principais tecnologias e ferramentas que impactaram positivamente minha trajetória profissional.",
+  //     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+  //   }
+  // ];
+  const posts = [];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">

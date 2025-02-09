@@ -22,8 +22,48 @@
     }
   },
   "experience": {
-    "title": "Experiência Profissional",
-    "role": "Desenvolvedor Full Stack",
-    "description": "Desenvolvimento de aplicações web utilizando React, Node.js e TypeScript. Implementação de novas funcionalidades, manutenção de código existente e otimização de performance."
+    "senior3": {
+      "company": "Turing",
+      "role": "Engenheiro de Software",
+      "description": "Sou um desenvolvedor de software especializado em Golang, trabalhando para uma das principais empresas de criptomoedas globais.  Esta experiência me proporcionou um conhecimento profundo de fintech e sistemas distribuídos em uma escala sem igual, com aplicações que suportam mais de 1 bilhão de requisições por dia.",
+      "begin": "Novembro 2023",
+      "end": "Atualmente"
+    },
+    "senior2": {
+      "company": "BairesDev",
+      "role": "Engenheiro de Software",
+      "description": "Especializado no desenvolvimento de sistemas com arquitetura de microsserviços, utilizo o banco de dados SQL Server e a linguagem Golang.  Minha experiência, adquirida principalmente no setor de saúde, é valiosa em relação à conformidade com a GDPR em escala global, abrangendo diversas leis e regulamentos de diferentes países.",
+      "begin": "Maio 2021",
+      "end": "Novembro 2023"
+    },
+    "specialist": {
+      "company": "Webmotors",
+      "role": "Desenvolvedor de Software Senior",
+      "description": "Colaborei com a equipe de arquitetura para estabelecer e aplicar padrões de desenvolvimento para equipes de TI, supervisionar o ambiente de produção e idealizar soluções inovadoras para aprimorar o desempenho de aplicações e reduzir custos operacionais.  Tenho proficiência no desenvolvimento de sistemas utilizando tecnologias C# (Web API, Web MVC, Console, Service) e Node.js (React, Express WebAPI), além de ser especialista na criação de ambientes em nuvem na AWS (utilizando CloudFormation, AWS CLI e Console).",
+      "begin": "Janeiro 2010",
+      "end": "Maio 2021"
+    },
+    "senior1": {
+      "company": "Stefanini IT",
+      "role": "Desenvolvedor de Software Senior",
+      "description": "Como prestador de serviços, sou especializado na criação, arquitetura e design de sistemas .NET utilizando a plataforma ASP.NET, incluindo websites em C#, Windows Services, processos em lote, servidores de aplicativos e web services para clientes de consultoria. Comprometido com a entrega de excelência em cada projeto.",
+      "begin": "Setembro 2006",
+      "end": "Janeiro 2010"
+    },
+    "junior": {
+      "company": "Architettura Soluções em Tecnologia S/C Ltda",
+      "role": "Analista de sistemas Junior",
+      "description": "Atuei como prestador de serviços para criação, arquitetura e design de sistemas .Net com plataformas WindowsForms e ASPNet, incluindo componentes de acesso a banco de dados e experiência com Ajax e WebServices.",
+      "begin": "Dezembro 2005",
+      "end": "Setembro 2006"
+    },
+    "intern": {
+      "company": "Mercado Eletrônico S/A",
+      "role": "Estagiario",
+      "description": "Contribuí para o desenvolvimento e manutenção da plataforma web do Mercado Eletrônico como Estagiário de Desenvolvimento. As responsabilidades incluíam a criação e integração de páginas web usando ASP, VB e Delphi, além de trabalhar com bancos de dados SQL e componentes COM+ desenvolvidos em Delphi e VB.",
+      "begin": "Maio 2004",
+      "end": "Dezembro 2005"
+    },
+    "title": "Experiência Profissional"
   }
 }

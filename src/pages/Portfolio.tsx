@@ -9,7 +9,8 @@ const Portfolio = () => {
         <div className="fade-in">
           <h1 className="text-4xl font-bold text-gray-900 mb-8">Portfolio</h1>
           <div className="grid gap-8 md:grid-cols-2">
-            {/* Exemplo de Projeto */}
+
+            {/* Exemplo de Projeto comentado
             <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Nome do Projeto</h3>
@@ -29,6 +30,8 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+            */}
+
           </div>
         </div>
       </main>

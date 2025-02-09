@@ -15,7 +15,7 @@ const Index = () => {
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
               {t('home.welcome')}
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 mx-auto">
               {t('home.subtitle')}
             </p>
           </section>
