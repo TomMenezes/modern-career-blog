@@ -286,8 +286,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Wellington Vieira Menezes**
-- LinkedIn: [Wellington Menezes](https://linkedin.com/in/wellington-menezes)
-- GitHub: [@wellington-menezes](https://github.com/wellington-menezes)
+- LinkedIn: [Wellington Menezes](https://www.linkedin.com/in/wellington-menezes-8a12b216/)
+- GitHub: [@wellington-menezes](https://github.com/TomMenezes)
 
 ## 🙏 Agradecimentos
 
