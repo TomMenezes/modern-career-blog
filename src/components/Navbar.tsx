@@ -29,60 +29,83 @@ const Navbar = () => {
   const tooltipText = nextLanguage === 'pt' ? 'Setar a linguagem em português' : 'Set the language to English';
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
+    <nav className="fixed top-0 left-0 right-0 glass-effect border-b border-white/20 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <Link to="/">
-              <h1 className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
+            <Link to="/" className="group">
+              <h1 className="text-2xl font-bold gradient-text group-hover:scale-105 transition-transform duration-300">
                 Wellington Vieira Menezes
               </h1>
             </Link>
           </div>
+          
           <div className="hidden sm:flex sm:space-x-8">
-            <Link to="/" className="nav-link">
+            <Link to="/" className="nav-link text-lg font-medium">
               {t('nav.home')}
             </Link>
-            <Link to="/experience" className="nav-link">
+            <Link to="/experience" className="nav-link text-lg font-medium">
               {t('nav.experience')}
             </Link>
-            <Link to="/portfolio" className="nav-link">
+            <Link to="/portfolio" className="nav-link text-lg font-medium">
               {t('nav.portfolio')}
             </Link>
-            <Link to="/blog" className="nav-link">
+            <Link to="/blog" className="nav-link text-lg font-medium">
               {t('nav.blog')}
             </Link>
           </div>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleLanguage}
-            className="ml-4"
-            title={tooltipText}
-          >
-            <Globe className="h-5 w-5" />
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleMenu}
-            className="sm:hidden ml-4"
-          >
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </Button>
+          
+          <div className="flex items-center space-x-4">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={toggleLanguage}
+              className="w-10 h-10 rounded-xl hover:bg-white/20 transition-all duration-300"
+              title={tooltipText}
+            >
+              <Globe className="h-5 w-5" />
+            </Button>
+            
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={toggleMenu}
+              className="sm:hidden w-10 h-10 rounded-xl hover:bg-white/20 transition-all duration-300"
+            >
+              {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </Button>
+          </div>
         </div>
+        
+        {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="sm:hidden mt-2 space-y-2">
-            <Link to="/" className="block nav-link">
+          <div className="sm:hidden mt-4 pb-6 space-y-4 slide-up">
+            <Link 
+              to="/" 
+              className="block nav-link text-lg font-medium py-3 px-4 rounded-xl hover:bg-white/10 transition-all duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
               {t('nav.home')}
             </Link>
-            <Link to="/experience" className="block nav-link">
+            <Link 
+              to="/experience" 
+              className="block nav-link text-lg font-medium py-3 px-4 rounded-xl hover:bg-white/10 transition-all duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
               {t('nav.experience')}
             </Link>
-            <Link to="/portfolio" className="block nav-link">
+            <Link 
+              to="/portfolio" 
+              className="block nav-link text-lg font-medium py-3 px-4 rounded-xl hover:bg-white/10 transition-all duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
               {t('nav.portfolio')}
             </Link>
-            <Link to="/blog" className="block nav-link">
+            <Link 
+              to="/blog" 
+              className="block nav-link text-lg font-medium py-3 px-4 rounded-xl hover:bg-white/10 transition-all duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
               {t('nav.blog')}
             </Link>
           </div>

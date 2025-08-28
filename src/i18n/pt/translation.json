@@ -10,25 +10,153 @@
     "welcome": "Bem-vindo ao Meu Blog Profissional",
     "subtitle": "Compartilhando experiências e conhecimentos em desenvolvimento de software",
     "contacts"  : "Contatos",
+    "explore": "Explorar",
     "experience": {
       "title": "Experiência Profissional",
-      "description": "Explore minha jornada profissional e os projetos em que trabalhei."
+      "description": "Explore minha jornada profissional e os projetos em que trabalhei.",
+      "action": "Explorar"
     },
     "portfolio": {
       "title": "Portfólio",
-      "description": "Conheça os projetos que desenvolvi e as tecnologias utilizadas."
+      "description": "Conheça os projetos que desenvolvi e as tecnologias utilizadas.",
+      "action": "Ver projetos"
     },
     "blog": {
       "title": "Blog",
-      "description": "Artigos sobre desenvolvimento, carreira e tecnologia."
+      "description": "Artigos sobre desenvolvimento, carreira e tecnologia.",
+      "action": "Ler artigos"
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "subtitle": "Projetos e trabalhos que demonstram minhas habilidades e experiência em desenvolvimento",
+    "empty": {
+      "title": "Portfolio em construção",
+      "description": "Em breve você encontrará aqui uma seleção dos meus melhores projetos e trabalhos."
+    },
+    "back": "Voltar ao início",
+    "projects": {
+      "videoConference": {
+        "title": "App de Video Conferência",
+        "description": "Plataforma moderna de video conferência com comunicação em tempo real, compartilhamento de tela e funcionalidade de chat. Construída com WebRTC para streaming de video/áudio de alta qualidade.",
+        "technologies": ["React", "TypeScript", "WebRTC", "Socket.io", "Node.js", "Express", "MongoDB"],
+        "features": ["Video/áudio em tempo real", "Compartilhamento de tela", "Funcionalidade de chat", "Múltiplos participantes", "Design responsivo"]
+      }
+    },
+    "demo": "Demo",
+    "viewDemo": "Ver Demo",
+    "viewProject": "Ver Projeto"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Compartilhando conhecimento, experiências e insights sobre desenvolvimento de software",
+    "empty": {
+      "title": "Nenhum artigo publicado ainda",
+      "description": "Em breve você encontrará aqui artigos sobre desenvolvimento, tecnologia e experiências profissionais."
+    },
+    "back": "Voltar ao início",
+    "readMore": "Ler mais",
+    "posts": {
+      "architecture": {
+        "id": "arquitetura-blog-moderno",
+        "title": "Arquitetura de um Blog Moderno com Vite + React + TypeScript",
+        "excerpt": "Como construímos um blog profissional com design moderno, internacionalização e componentes reutilizáveis usando as melhores práticas de desenvolvimento frontend.",
+        "date": "2024-12-19",
+        "readTime": "8 min",
+        "author": "Wellington Menezes",
+        "role": "Desenvolvedor Full Stack",
+        "tags": ["Vite", "React", "TypeScript", "Tailwind CSS", "i18n", "Arquitetura"]
+      }
+    },
+    "post": {
+      "notFound": {
+        "title": "Post não encontrado",
+        "description": "O artigo que você está procurando não existe."
+      },
+      "back": "Voltar para o Blog",
+      "moreArticles": "Ver mais artigos",
+      "author": "Wellington Menezes",
+      "role": "Desenvolvedor Full Stack"
+    },
+    "content": {
+      "overview": "Visão Geral do Projeto",
+      "overviewDesc": "Este blog foi desenvolvido como uma demonstração prática de como criar uma aplicação web moderna, escalável e profissional usando as tecnologias mais atuais do ecossistema React.",
+      "techStack": "Stack Tecnológica",
+      "frontendFramework": "Frontend Framework",
+      "styling": "Estilização",
+      "vite": "Vite - Build tool ultra-rápido",
+      "react18": "React 18 - Biblioteca de UI",
+      "typescript": "TypeScript - Tipagem estática",
+      "reactRouter": "React Router DOM - Roteamento",
+      "tailwind": "Tailwind CSS - Framework CSS utility-first",
+      "shadcn": "Shadcn/ui - Componentes reutilizáveis",
+      "cssProps": "CSS Custom Properties - Variáveis de tema",
+      "animations": "Animações CSS - Transições suaves",
+      "i18n": "Internacionalização (i18n)",
+      "i18nDesc": "Implementamos um sistema completo de internacionalização usando react-i18next:",
+      "translationStructure": "Estrutura de Traduções",
+      "designSystem": "Design System",
+      "designSystemDesc": "Criamos um design system consistente com:",
+      "gradients": "Gradientes",
+      "gradientsDesc": "Cores dinâmicas e modernas",
+      "glassEffect": "Glass Effect",
+      "glassEffectDesc": "Efeito de vidro fosco",
+      "responsive": "Responsivo",
+      "responsiveDesc": "Adaptável a todos os dispositivos",
+      "fileStructure": "Estrutura de Arquivos",
+      "performance": "Performance e Otimizações",
+      "codeSplitting": "Code Splitting",
+      "codeSplittingDesc": "Carregamento sob demanda de componentes",
+      "lazyLoading": "Lazy Loading",
+      "lazyLoadingDesc": "Componentes carregados quando necessário",
+      "imageOpt": "Image Optimization",
+      "imageOptDesc": "Imagens otimizadas",
+      "cssPurge": "CSS Purge",
+      "cssPurgeDesc": "Remoção de CSS não utilizado",
+      "configurations": "Configurações Principais",
+      "viteConfig": "Vite Configuration",
+      "tailwindConfig": "Tailwind Configuration",
+      "deploy": "Deploy e CI/CD",
+      "deployDesc": "O projeto está configurado para deploy automático com:",
+      "buildOpt": "Build otimizado para produção",
+      "minification": "Minificação de assets",
+      "gzip": "Compressão gzip",
+      "cacheHeaders": "Cache headers otimizados",
+      "responsiveness": "Responsividade",
+      "responsivenessDesc": "Design mobile-first com breakpoints bem definidos:",
+      "mobile": "Mobile",
+      "tablet": "Tablet",
+      "desktop": "Desktop",
+      "nextSteps": "Próximos Passos",
+      "nextStepsDesc": "Melhorias planejadas para o futuro:",
+      "cms": "CMS headless para gerenciamento de conteúdo",
+      "comments": "Sistema de comentários",
+      "pwa": "PWA (Progressive Web App)",
+      "analytics": "Analytics e métricas",
+      "seo": "SEO avançado",
+             "tip": "Dica",
+       "tipDesc": "Este projeto serve como um template excelente para outros projetos React modernos. A arquitetura é escalável e pode ser facilmente adaptada para diferentes tipos de aplicações.",
+       "repository": "Repositório",
+       "repositoryDesc": "Este projeto está disponível publicamente no GitHub como código aberto:",
+       "githubLink": "Ver no GitHub",
+       "githubUrl": "https://github.com/TomMenezes/modern-career-blog"
     }
   },
   "experience": {
-    "senior3": {
+    "title": "Experiência Profissional",
+    "subtitle": "Minha jornada profissional e as tecnologias que moldaram minha carreira",
+    "senior4": {
       "company": "Turing",
       "role": "Engenheiro de Software",
       "description": "Sou um desenvolvedor de software especializado em Golang, trabalhando para uma das principais empresas de criptomoedas globais.  Esta experiência me proporcionou um conhecimento profundo de fintech e sistemas distribuídos em uma escala sem igual, com aplicações que suportam mais de 1 bilhão de requisições por dia.",
       "begin": "Novembro 2023",
+      "end": "Atualmente"
+    },
+    "senior3": {
+      "company": "Acesso Energia",
+      "role": "Engenheiro de Software",
+      "description": "Gerenciar a manutenção e otimização da infraestrutura em nuvem, garantindo escalabilidade, segurança e alta disponibilidade em ambientes de produção. Atuei de forma estratégica no recrutamento, onboarding e mentorias, contribuindo para o crescimento de uma equipe de engenharia altamente performante e colaborativa. Fosterei uma cultura de equipe alinhada com os valores da empresa, enquanto impulsiono a inovação e entrego soluções técnicas impactantes. Forneci liderança técnica e orientação estratégica, alinhando esforços de engenharia com objetivos e longo prazo de negócios.",
+      "begin": "Agosto 2024",
       "end": "Atualmente"
     },
     "senior2": {
@@ -65,7 +193,114 @@
       "description": "Contribuí para o desenvolvimento e manutenção da plataforma web do Mercado Eletrônico como Estagiário de Desenvolvimento. As responsabilidades incluíam a criação e integração de páginas web usando ASP, VB e Delphi, além de trabalhar com bancos de dados SQL e componentes COM+ desenvolvidos em Delphi e VB.",
       "begin": "Maio 2004",
       "end": "Dezembro 2005"
+    }
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "A página que você está procurando não existe ou foi movida para outro local.",
+    "back": "Voltar ao início",
+    "goBack": "Voltar"
+  },
+  "videoconference": {
+    "title": "Plataforma de Video Conferência",
+    "subtitle": "Solução serverless de video conferência para vendas automotivas durante COVID-19",
+    "conceptualDemo": "Demo Conceitual",
+    "projectOverview": "Visão Geral do Projeto",
+    "overview": "Com o início da pandemia do coronavírus e as restrições impostas ao comércio pelo governo, as concessionárias de veículos precisavam ter um serviço de video conferência para mostrar aos clientes interessados o veículo online, para ajudar a aumentar as vendas de veículos enquanto as lojas permaneciam fechadas pela pandemia.",
+    "solutionArchitecture": "Arquitetura da Solução",
+    "deploymentStrategy": "Estratégia de Deploy",
+    "blueGreenDeployment": "Deploy Blue/Green",
+    "blueEnvironment": "Ambiente Blue",
+    "greenEnvironment": "Ambiente Green",
+    "production": "Produção",
+    "projectObjectives": "Objetivos do Projeto",
+    "architectureTeam": "Arquitetura & Equipe",
+    "teamStructure": "Estrutura da Equipe",
+    "apiArchitecture": "Arquitetura da API",
+    "publicApi": "API Pública",
+    "privateApi": "API Privada",
+    "playersApi": "API Players",
+    "awsInfrastructure": "Infraestrutura AWS",
+    "frontendPlatforms": "Plataformas Frontend",
+    "securityDeployment": "Segurança & Deploy",
+    "keyComponents": "Componentes Principais",
+    "dataFlow": "Fluxo de Dados",
+    "architectureHighlights": "Destaques da Arquitetura",
+    "serverless": "Serverless",
+    "scalable": "Escalável",
+    "awsNative": "AWS Nativo",
+    "technicalImplementation": "Implementação Técnica",
+    "frontendImplementation": "Implementação Frontend",
+    "backendArchitecture": "Arquitetura Backend",
+    "reactWebApp": "App Web React",
+    "mobileApps": "Apps Mobile",
+    "serverlessFunctions": "Funções Serverless",
+    "dataStorage": "Armazenamento de Dados",
+    "backToPortfolio": "← Voltar ao Portfólio",
+    "note": "Nota: Esta é uma demonstração conceitual mostrando o design UI/UX e interações do usuário. A funcionalidade real de video conferência exigiria implementação WebRTC e serviços backend.",
+    "objectives": {
+      "objective1": "Permitir que o comerciante agende uma video conferência do seu CRM para um comprador previamente registrado.",
+      "objective2": "Permitir que os compradores aceitem e acessem a plataforma de video conferência.",
+      "objective3": "Notificar o comprador de uma nova video conferência e fornecer um link de acesso à conferência.",
+      "objective4": "Notificar o vendedor quando o comprador acessar a video conferência se o vendedor não estiver acessando a video conferência",
+      "objective5": "Limitar a quantidade de minutos de video conferência para o vendedor nas configurações.",
+      "objective6": "Armazenar o video com áudio da video conferência.",
+      "objective7": "Permitir que o vendedor acesse o video da conferência do CRM."
     },
-    "title": "Experiência Profissional"
+    "teamRoles": {
+      "architect": "Arquiteto/Scrum Master",
+      "backendDevs": "Desenvolvedores Backend",
+      "frontendDevs": "Desenvolvedores Frontend React",
+      "mobileDevs": "Desenvolvedores iOS/Android",
+      "qaEngineers": "Engenheiros QA",
+      "productOwner": "Product Owner",
+      "manager": "Gerente"
+    },
+    "apiDescriptions": {
+      "publicApiDesc": "Métodos de acesso à video conferência para comerciante e comprador, métodos de conclusão e webhook do Twilio para armazenar video/áudio da conferência no S3.",
+      "privateApiDesc": "Métodos de banco de dados e regras específicas do projeto, acessados apenas de dentro da VPC.",
+      "playersApiDesc": "Métodos para players de video conferência (AWS Chime, Twilio) com flexibilidade para adicionar outros como Zoom."
+    },
+    "infrastructureDescriptions": {
+      "awsDesc": "Lambda (80% .NET Core, 20% NodeJS), DynamoDB, S3, CloudFront, API Gateway",
+      "frontendDesc": "App Web React (S3 + CloudFront), Apps iOS/Android (Apple Store, Google Store)",
+      "securityDesc": "Deploy Blue/Green, pipelines CI/CD, separação de ambientes, testes automatizados"
+    },
+    "components": {
+      "clientApps": "Aplicações Cliente (Desktop, Mobile, CRM)",
+      "cloudFront": "AWS CloudFront (Distribuição CDN)",
+      "apiGateway": "API Gateway (3 APIs: Pública, Privada, Players)",
+      "lambdaFunctions": "Funções Lambda (.NET Core + NodeJS)",
+      "dynamoDB": "DynamoDB (Armazenamento de Dados)",
+      "s3": "S3 (Armazenamento de Video/Áudio)",
+      "videoServices": "Twilio & AWS Chime (Serviços de Video)"
+    },
+    "dataFlow": {
+      "flow1": "Clientes se conectam via CloudFront",
+      "flow2": "API Gateway roteia requisições para serviços apropriados",
+      "flow3": "Funções Lambda processam lógica de negócio",
+      "flow4": "DynamoDB armazena dados de reunião e usuário",
+      "flow5": "S3 armazena gravações de video",
+      "flow6": "Twilio/Chime lidam com video em tempo real",
+      "flow7": "Integração CRM para acesso do comerciante"
+    },
+    "architectureDescriptions": {
+      "serverlessDesc": "Arquitetura totalmente serverless com funções Lambda e serviços gerenciados",
+      "scalableDesc": "Capacidades de auto-scaling com CloudFront e API Gateway",
+      "awsNativeDesc": "Construído inteiramente em serviços AWS para performance e custo otimais"
+    },
+    "technicalDescriptions": {
+      "reactWebDesc1": "Deploy via AWS CloudFront com origem S3 e Lambda Edge para roteamento de ambiente.",
+      "reactWebDesc2": "Deploy Blue/Green com testes automatizados e rollouts de produção.",
+      "mobileDesc1": "Apps iOS e Android com distribuição Firebase e testes automatizados.",
+      "mobileDesc2": "Disponível na Apple Store e Google Store com integração de pipeline CI/CD.",
+      "lambdaDesc1": "80% .NET Core e 20% NodeJS funções Lambda com aliases de ambiente.",
+      "lambdaDesc2": "API Gateway com variáveis de stage para gerenciamento de ambiente.",
+      "storageDesc1": "DynamoDB para consultas eficientes baseadas em chave e armazenamento econômico.",
+      "storageDesc2": "S3 para armazenamento de video/áudio com integração CRM para acesso do comerciante."
+    },
+    "deploymentDesc": "Pipeline CI/CD automatizado com separação de ambiente e testes integrados antes do rollout de produção.",
+    "architectureDesc": "Arquitetura serverless multicamadas com 3 APIs, integração Twilio/Chime e conectividade CRM abrangente.",
+    "awsComponents": "Componentes da Arquitetura AWS"
   }
 }

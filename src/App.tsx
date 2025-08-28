@@ -10,6 +10,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
+import VideoConference from "./pages/VideoConference";
 import "./i18n/config";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/videoconference" element={<VideoConference />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

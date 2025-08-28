@@ -9,25 +9,153 @@
     "welcome": "Welcome to My Professional Blog",
     "subtitle": "Sharing experiences and knowledge in software development",
     "contacts"  : "Contacts",
+    "explore": "Explore",
     "experience": {
       "title": "Professional Experience",
-      "description": "Explore my professional journey and the projects I worked on."
+      "description": "Explore my professional journey and the projects I worked on.",
+      "action": "Explore"
     },
     "portfolio": {
       "title": "Portfolio",
-      "description": "Check out the projects I developed and the technologies used."
+      "description": "Check out the projects I developed and the technologies used.",
+      "action": "View projects"
     },
     "blog": {
       "title": "Blog",
-      "description": "Articles about development, career, and technology."
+      "description": "Articles about development, career, and technology.",
+      "action": "Read articles"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Projects and work that demonstrate my skills and experience in development",
+    "empty": {
+      "title": "Portfolio under construction",
+      "description": "Soon you will find here a selection of my best projects and work."
+    },
+    "back": "Back to home",
+    "projects": {
+      "videoConference": {
+        "title": "Video Conference App",
+        "description": "Modern video conferencing platform with real-time communication, screen sharing, and chat functionality. Built with WebRTC for high-quality video/audio streaming.",
+        "technologies": ["React", "TypeScript", "WebRTC", "Socket.io", "Node.js", "Express", "MongoDB"],
+        "features": ["Real-time video/audio", "Screen sharing", "Chat functionality", "Multiple participants", "Responsive design"]
+      }
+    },
+    "demo": "Demo",
+    "viewDemo": "View Demo",
+    "viewProject": "View Project"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Sharing knowledge, experiences and insights about software development",
+    "empty": {
+      "title": "No articles published yet",
+      "description": "Soon you will find here articles about development, technology and professional experiences."
+    },
+    "back": "Back to home",
+    "readMore": "Read more",
+    "posts": {
+      "architecture": {
+        "id": "arquitetura-blog-moderno",
+        "title": "Architecture of a Modern Blog with Vite + React + TypeScript",
+        "excerpt": "How we built a professional blog with modern design, internationalization and reusable components using frontend development best practices.",
+        "date": "2024-12-19",
+        "readTime": "8 min",
+        "author": "Wellington Menezes",
+        "role": "Full Stack Developer",
+        "tags": ["Vite", "React", "TypeScript", "Tailwind CSS", "i18n", "Architecture"]
+      }
+    },
+    "post": {
+      "notFound": {
+        "title": "Post not found",
+        "description": "The article you are looking for does not exist."
+      },
+      "back": "Back to Blog",
+      "moreArticles": "See more articles",
+      "author": "Wellington Menezes",
+      "role": "Full Stack Developer"
+    },
+    "content": {
+      "overview": "Project Overview",
+      "overviewDesc": "This blog was developed as a practical demonstration of how to create a modern, scalable and professional web application using the latest technologies in the React ecosystem.",
+      "techStack": "Technology Stack",
+      "frontendFramework": "Frontend Framework",
+      "styling": "Styling",
+      "vite": "Vite - Ultra-fast build tool",
+      "react18": "React 18 - UI Library",
+      "typescript": "TypeScript - Static typing",
+      "reactRouter": "React Router DOM - Routing",
+      "tailwind": "Tailwind CSS - Utility-first CSS framework",
+      "shadcn": "Shadcn/ui - Reusable components",
+      "cssProps": "CSS Custom Properties - Theme variables",
+      "animations": "CSS Animations - Smooth transitions",
+      "i18n": "Internationalization (i18n)",
+      "i18nDesc": "We implemented a complete internationalization system using react-i18next:",
+      "translationStructure": "Translation Structure",
+      "designSystem": "Design System",
+      "designSystemDesc": "We created a consistent design system with:",
+      "gradients": "Gradients",
+      "gradientsDesc": "Dynamic and modern colors",
+      "glassEffect": "Glass Effect",
+      "glassEffectDesc": "Frosted glass effect",
+      "responsive": "Responsive",
+      "responsiveDesc": "Adaptable to all devices",
+      "fileStructure": "File Structure",
+      "performance": "Performance and Optimizations",
+      "codeSplitting": "Code Splitting",
+      "codeSplittingDesc": "On-demand component loading",
+      "lazyLoading": "Lazy Loading",
+      "lazyLoadingDesc": "Components loaded when needed",
+      "imageOpt": "Image Optimization",
+      "imageOptDesc": "Optimized images",
+      "cssPurge": "CSS Purge",
+      "cssPurgeDesc": "Removal of unused CSS",
+      "configurations": "Main Configurations",
+      "viteConfig": "Vite Configuration",
+      "tailwindConfig": "Tailwind Configuration",
+      "deploy": "Deploy and CI/CD",
+      "deployDesc": "The project is configured for automatic deployment with:",
+      "buildOpt": "Production optimized build",
+      "minification": "Asset minification",
+      "gzip": "Gzip compression",
+      "cacheHeaders": "Optimized cache headers",
+      "responsiveness": "Responsiveness",
+      "responsivenessDesc": "Mobile-first design with well-defined breakpoints:",
+      "mobile": "Mobile",
+      "tablet": "Tablet",
+      "desktop": "Desktop",
+      "nextSteps": "Next Steps",
+      "nextStepsDesc": "Planned improvements for the future:",
+      "cms": "Headless CMS for content management",
+      "comments": "Comment system",
+      "pwa": "PWA (Progressive Web App)",
+      "analytics": "Analytics and metrics",
+      "seo": "Advanced SEO",
+             "tip": "Tip",
+       "tipDesc": "This project serves as an excellent template for other modern React projects. The architecture is scalable and can be easily adapted for different types of applications.",
+       "repository": "Repository",
+       "repositoryDesc": "This project is publicly available on GitHub as open source:",
+       "githubLink": "View on GitHub",
+       "githubUrl": "https://github.com/TomMenezes/modern-career-blog"
     }
   },
   "experience": {
-    "senior3": {
+    "title": "Professional Experience",
+    "subtitle": "My professional journey and the technologies that shaped my career",
+    "senior4": {
       "company": "Turing",
       "role": "Software Engineer",
       "description": "Dedicated software developer specializing in Golang-based systems, catering to one of the world's leading cryptocurrency companies. This role has provided extensive exposure to fintech and distributed systems on an unprecedented scale, where applications handle over 1 billion requests daily",
       "begin": "Nov 2023",
+      "end": "Present"
+    },
+    "senior3": {
+      "company": "Acesso Energia",
+      "role": "Software Engineer",
+      "description": "Led the maintenance and optimization of cloud infrastructure, ensuring scalability, security, and high availability across production environments. Played a strategic role in talent acquisition, onboarding, and mentoring, contributing to the growth of a high-performing, collaborative engineering team. Fostered a strong team culture aligned with company values, while driving innovation and delivering impactful technical solutions.Provided technical leadership and strategic guidance, aligning engineering efforts with business objectives and long-term goals.",
+      "begin": "Aug 2024",
       "end": "Present"
     },
     "senior2": {
@@ -65,7 +193,114 @@
       "begin": "May 2024",
       "end": "Dec 2025",
       "components": ["ASP","VB","Delphi","Com+","SQL Server"]
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved to another location.",
+    "back": "Back to home",
+    "goBack": "Go back"
+  },
+  "videoconference": {
+    "title": "Video Conference Platform",
+    "subtitle": "Serverless video conferencing solution for automotive sales during COVID-19",
+    "conceptualDemo": "Conceptual Demo",
+    "projectOverview": "Project Overview",
+    "overview": "With the onset of the coronavirus pandemic and restrictions imposed on commerce by the government, car stores needed to have a video conferencing service to show interested customers the vehicle online, to help increase vehicle sales while stores remain closed by the pandemic.",
+    "solutionArchitecture": "Solution Architecture",
+    "deploymentStrategy": "Deployment Strategy",
+    "blueGreenDeployment": "Blue/Green Deployment",
+    "blueEnvironment": "Blue Environment",
+    "greenEnvironment": "Green Environment",
+    "production": "Production",
+    "projectObjectives": "Project Objectives",
+    "architectureTeam": "Architecture & Team",
+    "teamStructure": "Team Structure",
+    "apiArchitecture": "API Architecture",
+    "publicApi": "Public API",
+    "privateApi": "Private API",
+    "playersApi": "Players API",
+    "awsInfrastructure": "AWS Infrastructure",
+    "frontendPlatforms": "Frontend Platforms",
+    "securityDeployment": "Security & Deployment",
+    "keyComponents": "Key Components",
+    "dataFlow": "Data Flow",
+    "architectureHighlights": "Architecture Highlights",
+    "serverless": "Serverless",
+    "scalable": "Scalable",
+    "awsNative": "AWS Native",
+    "technicalImplementation": "Technical Implementation",
+    "frontendImplementation": "Frontend Implementation",
+    "backendArchitecture": "Backend Architecture",
+    "reactWebApp": "React Web App",
+    "mobileApps": "Mobile Apps",
+    "serverlessFunctions": "Serverless Functions",
+    "dataStorage": "Data Storage",
+    "backToPortfolio": "← Back to Portfolio",
+    "note": "Note: This is a conceptual demonstration showcasing the UI/UX design and user interactions. The actual video conferencing functionality would require WebRTC implementation and backend services.",
+    "objectives": {
+      "objective1": "Allow the merchant to schedule a video conference from his CRM for a previously registered buyer.",
+      "objective2": "Allow buyers to accept and access the video conferencing platform.",
+      "objective3": "Notify the buyer of a new video conference and provide an access link to the conference.",
+      "objective4": "Notify seller when buyer accesses video conference if the seller is not accessing video conference",
+      "objective5": "Limit the amount of video conference minutes for the seller in the settings.",
+      "objective6": "Store the video with audio of the video conference.",
+      "objective7": "Allow the seller to access the video of the conference video from the CRM."
     },
-    "title": "Professional Experience"
+    "teamRoles": {
+      "architect": "Architect/Scrum Master",
+      "backendDevs": "Backend Developers",
+      "frontendDevs": "Frontend React Developers",
+      "mobileDevs": "iOS/Android Developers",
+      "qaEngineers": "QA Engineers",
+      "productOwner": "Product Owner",
+      "manager": "Manager"
+    },
+    "apiDescriptions": {
+      "publicApiDesc": "Video-conference access methods for merchant and buyer, completion methods, and Twilio webhook for storing conference video/audio in S3.",
+      "privateApiDesc": "Database methods and project-specific rules, accessed only from within the VPC.",
+      "playersApiDesc": "Methods for video conferencing players (AWS Chime, Twilio) with flexibility to add others like Zoom."
+    },
+    "infrastructureDescriptions": {
+      "awsDesc": "Lambda (80% .NET Core, 20% NodeJS), DynamoDB, S3, CloudFront, API Gateway",
+      "frontendDesc": "React Web App (S3 + CloudFront), iOS/Android Apps (Apple Store, Google Store)",
+      "securityDesc": "Blue/Green deployment, CI/CD pipelines, environment separation, automated testing"
+    },
+    "components": {
+      "clientApps": "Client Applications (Desktop, Mobile, CRM)",
+      "cloudFront": "AWS CloudFront (CDN Distribution)",
+      "apiGateway": "API Gateway (3 APIs: Public, Private, Players)",
+      "lambdaFunctions": "Lambda Functions (.NET Core + NodeJS)",
+      "dynamoDB": "DynamoDB (Data Storage)",
+      "s3": "S3 (Video/Audio Storage)",
+      "videoServices": "Twilio & AWS Chime (Video Services)"
+    },
+    "dataFlow": {
+      "flow1": "Clients connect via CloudFront",
+      "flow2": "API Gateway routes requests to appropriate services",
+      "flow3": "Lambda functions process business logic",
+      "flow4": "DynamoDB stores meeting and user data",
+      "flow5": "S3 stores video recordings",
+      "flow6": "Twilio/Chime handle real-time video",
+      "flow7": "CRM integration for merchant access"
+    },
+    "architectureDescriptions": {
+      "serverlessDesc": "Fully serverless architecture with Lambda functions and managed services",
+      "scalableDesc": "Auto-scaling capabilities with CloudFront and API Gateway",
+      "awsNativeDesc": "Built entirely on AWS services for optimal performance and cost"
+    },
+    "technicalDescriptions": {
+      "reactWebDesc1": "Deployed via AWS CloudFront with S3 origin and Lambda Edge for environment routing.",
+      "reactWebDesc2": "Blue/Green deployment with automated testing and production rollouts.",
+      "mobileDesc1": "iOS and Android apps with Firebase distribution and automated testing.",
+      "mobileDesc2": "Available on Apple Store and Google Store with CI/CD pipeline integration.",
+      "lambdaDesc1": "80% .NET Core and 20% NodeJS Lambda functions with environment aliases.",
+      "lambdaDesc2": "API Gateway with stage variables for environment management.",
+      "storageDesc1": "DynamoDB for efficient key-based querying and cost-effective storage.",
+      "storageDesc2": "S3 for video/audio storage with CRM integration for merchant access."
+    },
+    "deploymentDesc": "Automated CI/CD pipeline with environment separation and integrated testing before production rollout.",
+    "architectureDesc": "Multi-layered serverless architecture with 3 APIs, Twilio/Chime integration, and comprehensive CRM connectivity.",
+    "awsComponents": "AWS Architecture Components"
   }
 }
